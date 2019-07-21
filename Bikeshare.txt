@@ -187,6 +187,7 @@ def display_raw_data(df):
             print("Your entry is incorrect. Please enter either yes or no.")
 
 def main():
+    """This is the main function that runs the program"""
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
