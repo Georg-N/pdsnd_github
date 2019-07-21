@@ -174,14 +174,14 @@ def user_stats(df, city):
 def display_raw_data(df):
     """Display raw data if user wants"""
     
-    row_counter = 0
+    RowCounter = 0
     while True:
         display = input("Would you like to see the first/next 5 rows of the raw data? Enter yes or no.\n").lower()
         if display == "no":
             break
         elif display == "yes":
             print(df[row_counter:row_counter+5])
-            row_counter += 5
+            RowCounter += 5
         else:
             print("Your entry is incorrect. Please enter either yes or no.")
 
