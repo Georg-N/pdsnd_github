@@ -22,9 +22,9 @@ def get_filters():
         city = input("You have typed in an incorrect city name. Please type in either Chicago, New York City or Washington.\n").lower()
     
     # ask user whether he wants to filter month, day, both or not at all
-    m_d_filter = input("Would you like to filter the data by month, day, both or not at all?\n")
+    m_d_filter = input("Would you like to filter the data by month, day, both or not at all?\n").lower()
     while m_d_filter != "month" and m_d_filter != "day" and m_d_filter != "both" and m_d_filter != "not at all":
-        m_d_filter = input("You have entered an incorrect selection. Please type in either month, day, both or not at all.\n")
+        m_d_filter = input("You have entered an incorrect selection. Please type in either month, day, both or not at all.\n").lower()
     
     # get user input for month (all, january, february, ... , june)
     if m_d_filter == "both" or m_d_filter =="month":
