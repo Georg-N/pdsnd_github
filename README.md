@@ -1,5 +1,5 @@
 ### Date created
-Creation date of project: 07/21/2019 creation date of README 07/21/2019
+Creation date of project: 05/02/2019 creation date of README 07/21/2019
 
 ### Project Title
 Explore US Bikeshare Data
